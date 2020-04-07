@@ -1,5 +1,5 @@
 backend:
-  name: bitbucket
+  name: github
   repo: edwerd/edwerd.co
 media_folder: static/assets
 public_folder: /assets
