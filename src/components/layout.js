@@ -25,6 +25,9 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
+        <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
+      </footer>
+      <footer className="site-footer">
         <p>&copy; 2020 Edward Wisniewski &bull; Crafted with <span role="img" aria-label="love">❤️</span> in New Jersey.</p>
       </footer>
     </div>

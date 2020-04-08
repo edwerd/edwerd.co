@@ -6,14 +6,7 @@ html {
   font-size: 16px;
 }
 
-@media screen and (min-width: 320px) {
-  html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  html {
-    font-size: 22px;
-  }
+body {
+  font-size: calc(16px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: $shade6;
 }

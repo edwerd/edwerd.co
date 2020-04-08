@@ -7,12 +7,12 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Digital Design by Edward Wisniewski`,
+    title: `Edward Wisniewski`,
     description: `From creative to tech, Edward does it all.`,
     siteUrl: `https://edwerd.netlify.com/`,
     home: {
-      title: `Edward`,
-      description: `is a creative always willing to take on digital challenges.`,
+      title: `Edward is a creative always willing to take on digital challenges`,
+      description: `Coming soon.`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5e609f7a2d23fCF_Domain_verify`
