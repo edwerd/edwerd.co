@@ -1,0 +1,15 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-bottom: 32px;
+  align-items: center;
+  border-bottom: solid 5px $shade1;
+}
+
+.site-title a {
+  color: $shade6;
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
+}

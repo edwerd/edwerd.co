@@ -1,0 +1,32 @@
+.post {
+  padding: 0;
+  background:white;
+  line-height: 1.5;
+
+  > .blog-post-content {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  > .blog-post-content *:last-child,
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .post-title {
+    text-align: center;
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+    font-size: 2rem;
+  }
+
+  .post-meta {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: $shade2;
+}

@@ -1,0 +1,38 @@
+.card {
+  display: grid;
+  background: white;
+  border-radius: 9px;
+  border: 1px solid $shade0;
+  box-shadow: 0 0 30px $shade1;
+  overflow: hidden;
+  line-height: 1.5;
+
+  &:hover .post-link {
+    color: $primary-color;
+  }
+
+  > a img {
+    display: block;
+  }
+
+  > header {
+    padding: 24px;
+  }
+
+  > h2:first-child {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  .post-meta {
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+  .post-link {
+    color: #333;
+    text-decoration: none;
+  }
+}
