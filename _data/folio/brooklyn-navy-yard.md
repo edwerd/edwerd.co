@@ -4,8 +4,6 @@ path: brooklyn-navy-yard
 title: Brooklyn Navy Yard
 thumbnail: /assets/image-3.jpg
 ---
-
-
 # Brooklyn Navy yard
 
 ## Roles
@@ -15,3 +13,5 @@ thumbnail: /assets/image-3.jpg
 * Interactive Director
 * Technical Director
 * User Experience Designer
+
+  Testest
