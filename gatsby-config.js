@@ -11,8 +11,8 @@ module.exports = {
     description: `From creative to tech, Edward does it all.`,
     siteUrl: `https://edwerd.netlify.com/`,
     home: {
-      title: `Hi! I'm Edward`,
-      description: `Social impact designer and developer. Trying to change the world using technology.`,
+      title: `Edward`,
+      description: `is a creative always willing to take on digital challenges.`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5e609f7a2d23fCF_Domain_verify`
