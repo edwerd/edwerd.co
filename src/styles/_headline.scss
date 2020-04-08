@@ -9,8 +9,26 @@
 
 .h2 {
   font-family: $FontFamilyHeading;
-  text-decoration: center;
-  font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
+  font-weight: 900;
+  font-size: calc(11em + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: -50px;
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-stroke: 5px $shade1;
+  text-align: center;
+  margin-bottom: 0;
+
+  &:after {
+    display: block;
+    text-align: center;
+    content: attr(title);
+    color: $shade6;
+    font-family: $FontFamilyHeading;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: -6em;
+    text-transform: capitalize;
+    -webkit-text-stroke: 0;
+    letter-spacing: 0;
+  }
 }
